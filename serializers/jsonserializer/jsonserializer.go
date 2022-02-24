@@ -5,6 +5,10 @@ import (
 	"encoding/json"
 )
 
+func NewSerializer() *Serializer {
+	return &Serializer{}
+}
+
 type Serializer struct {
 }
 

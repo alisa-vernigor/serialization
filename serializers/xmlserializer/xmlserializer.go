@@ -1,8 +1,12 @@
-package jsonserializer
+package xmlserializer
 
 import (
 	"encoding/xml"
 )
+
+func NewSerializer() *Serializer {
+	return &Serializer{}
+}
 
 type Serializer struct {
 }

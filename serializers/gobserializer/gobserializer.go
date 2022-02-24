@@ -5,6 +5,10 @@ import (
 	"encoding/gob"
 )
 
+func NewSerializer() *Serializer {
+	return &Serializer{}
+}
+
 type Serializer struct {
 }
 
